@@ -1,8 +1,7 @@
-# LungDiag
-1.annotation_example展示的是用于训练的数据格式，它是将.txt文本格式经过PIAT标注之后生成的json文本，PIAT算法的相关描述见https://ieeexplore.ieee.org/document/9780554/。
+1. The `annotation_example` demonstrates the data format used for training. It is a JSON file generated from a `.txt` file after being annotated by the PIAT algorithm. For more details on the PIAT algorithm, refer to the paper available at: [https://ieeexplore.ieee.org/document/9780554/](https://ieeexplore.ieee.org/document/9780554/).
 
-2.Train_set用于存储训练集的数据,Test_set是用于验证的测试集数据，二者文件都是上述json文件形式，文件名为“疾病名称_患者编号”来命名。
+2. The `Train_set` is used to store the training data, while the `Test_set` contains the data for validation. Both files are in the aforementioned JSON format, and their filenames follow the convention "DiseaseName_PatientID".
 
-3.disease_classification_name.xlsx是用来呼吸系统疾病诊断名称标准化的文件。
+3. The `disease_classification_name.xlsx` is a file used for the standardization of diagnostic names for respiratory diseases.
 
-4.clinical_features_synonym.xlsx是用来构建LungDiag临床特征的标准化文件
+4. The `clinical_features_synonym.xlsx` is a file used to standardize the clinical features for LungDiag.
